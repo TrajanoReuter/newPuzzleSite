@@ -1,0 +1,134 @@
+@media only screen and (max-width: 988px){
+    img.phone{
+        top: 230px;
+        width: 350px;
+        height:490px;
+    }
+    #team .item{
+        width: 85%;
+    }
+    #plans .item .price{
+        width: 200px;
+        left: calc(50% - 100px);
+    }
+    button.request{
+        width: 150px;
+    }
+    #partners .item.part1, #midia .item.mid1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #partners .item, #midia .item{
+        width: 25%;
+    }
+    .sm-center{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .xs-center{
+        text-align: center;
+    }
+    header h2{
+        margin-top: 80px;
+    }
+    button.meeting{
+        width: 280px;
+        margin-left: calc(50% - 140px);
+    }
+     #ideia .time button.meeting{
+        display: inline-block !important;
+        margin-left: 0 !important;
+     }
+    #circles p.t1, #circles p.t2{
+        margin-left: 0;
+        text-align: center;
+    }
+    #circles p.t2{
+        margin-bottom: 30px;
+    }
+    #circles .bcircle.offset2{
+        margin-top: -400px !important;
+    }
+    #circles .bcircle.offset{
+        margin-top: 0;
+    }
+
+    #circles .topoffset{
+        margin-top: 0;
+    }
+     #circles{
+        padding-bottom: 60px;
+     }
+    #plans .item.middle{
+        margin-top: 0;
+    }
+    #depositions p.t2{
+        margin-top: 0;
+        text-align: center;
+    }
+    #depositions p.t3, #depositions p.t4{
+        text-align: center;
+    }
+    #contact p.pl{
+        margin-top: 5px;
+    }
+    #contact img.soci{
+        margin-bottom: 30px;
+    }
+    footer{
+        padding-bottom: 15px;
+    }
+    #our{
+        padding-bottom: 60px;
+    }
+    #depositions img.rightal{
+        float: none;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    #depositions img.dlogo{
+        float: none;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    #depositions{
+        padding-bottom: 0;
+    }
+    #depositions iframe{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #partners .item, #midia .item{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    #team .item{
+        width: 100%;
+    }
+    #ideia{
+        padding-top: 0;
+    }
+    button.plans, button.freemom{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    #team .item .img{
+        display: none;
+    }
+    #team .item .text{
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    #partners .item, #midia .item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
